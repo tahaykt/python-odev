@@ -14,7 +14,7 @@ def ogrenciEkle():
     ogrenci2=input("Öğrenci2 adı:")
 
     ogrenciler.extend([ogrenci1],[ogrenci2])
-    return ogrenciler
+   
 ogrenciEkle()
 print(ogrenciler)
 
