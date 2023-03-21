@@ -107,7 +107,15 @@ class TestSauce:           #test girişi login sayfasında username girilince ya
 
 
 test1 = TestSauce()
+
+
+test1.test_null_login()
+test1.test_null_password()
+test1.test_username_password()
+test1.show_error_icon_test()
+test1.login_standard_user()
 test1.show_product_count()
+
 
 while True:
     continue
